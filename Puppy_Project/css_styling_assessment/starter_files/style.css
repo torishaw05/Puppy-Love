@@ -1,0 +1,164 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+
+header {
+  font-size: 20px;
+  padding: 25px;
+  border: 4px solid yellow;
+
+
+}
+
+body {
+background-color: gray;
+}
+
+
+
+
+#site_header {
+  font-color: white;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ff8523;
+}
+
+
+
+.main_navigation a {
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px  solid yellow;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+
+
+}
+
+.main_navigation{
+    padding-top: 12px;
+    border-top: 1px  #yellow;
+    border-radius: 25px;
+    font-color: white;
+}
+
+.main_navigation a:hover{
+    color: white;
+    background-color: yellow;
+}
+
+
+
+#page_content {
+  color: #1fabe5;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+  padding: 50px;
+  border: 4px solid yellow;
+  background-color: white;
+
+
+}
+/*==========================*/
+p {
+  color: black;
+  font-size: 15px ;
+
+}
+
+a {
+  color: #1fabe5
+}
+
+ul {
+  color:black;
+}
+
+table {
+  border: 3px solid #1fabe5;
+  margin-top: 25px;
+  max-width: 100%;
+  height: 50%;
+  color: black;
+
+
+}
+
+
+thead {
+  border: 3px solid #1fabe5;
+  border-color: solid #1fabe5 ;
+  background-color: #1fabe5;
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+
+}
+
+td {
+  border: 3px solid #1fabe5;
+  padding: 5px;
+
+}
+
+
+
+
+
+.name {
+  border: 4px solid #ff8523;
+  background-color: #ff8523;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+form {
+  background-color: gray;
+}
+label {
+  color: white;
+  padding-bottom: 15px;
+
+}
+
+#submit_button{
+  height: 29px;
+  width: 15%;
+  background-color: #1fabe5;
+  font-family: helvetica, arial, sans-serif;
+  border-radius: 10px;
+color: white;
+}
+
+
+.city_container {
+  margin: 15px;
+}
+
+.submit_container {
+  margin: 8px;
+}
+
+#first_name{
+padding-bottom: 8px;
+}
+
+#last_name{
+  padding-bottom: 8px;
+}
